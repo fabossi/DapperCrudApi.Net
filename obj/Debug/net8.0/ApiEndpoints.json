@@ -27,6 +27,22 @@
   },
   {
     "ContainingType": "DapperCrudApi.Controllers.UserController",
+    "Method": "EditarUsuario",
+    "RelativePath": "api/User",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userEditDto",
+        "Type": "DapperCrudApi.Dto.UserEditDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DapperCrudApi.Controllers.UserController",
     "Method": "BuscarUsuariosPorId",
     "RelativePath": "api/User/{Id}",
     "HttpMethod": "GET",

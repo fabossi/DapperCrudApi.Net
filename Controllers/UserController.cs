@@ -54,5 +54,17 @@ namespace DapperCrudApi.Controllers
 
             return Ok(usuario);
         }
+
+        [HttpPut]
+        public async Task<IActionResult> EditarUsuario(UserEditDto userEditDto)
+        {
+            var usuarios = await _userService.EditarUsuario(userEditDto);
+
+            if (!usuarios.Status == false)
+            {
+                return BadRequest(usuarios);
+            }
+            return Ok(usuarios);
+        }
     }
 }

@@ -8,5 +8,7 @@ namespace DapperCrudApi.Serivces
         Task<ResponseModel<List<UserListDto>>> BuscarUsuarios();
         Task<ResponseModel<UserListDto>> BuscarUsuarioPorId(int Id);
         Task<ResponseModel<List<UserListDto>>> CriarUsuario(UserCreationDto userCreationDto);
+        Task<ResponseModel<List<UserListDto>>> ListarUsuarios();
+        Task<ResponseModel<List<UserListDto>>> EditarUsuario(UserEditDto userEditDto);
     }
 }

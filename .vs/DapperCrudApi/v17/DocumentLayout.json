@@ -1,26 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\felipe.costa\\source\\repos\\DapperCrudApi\\",
+  "WorkspaceRootPath": "D:\\workspace-csharp\\DapperCrudApi.Net\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F9C02FA1-27B2-4F47-B8D0-2A515837AD04}|DapperCrudApi.csproj|c:\\users\\felipe.costa\\source\\repos\\dappercrudapi\\dto\\usercreationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9C02FA1-27B2-4F47-B8D0-2A515837AD04}|DapperCrudApi.csproj|solutionrelative:dto\\usercreationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F9C02FA1-27B2-4F47-B8D0-2A515837AD04}|DapperCrudApi.csproj|d:\\workspace-csharp\\dappercrudapi.net\\dto\\usereditdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C02FA1-27B2-4F47-B8D0-2A515837AD04}|DapperCrudApi.csproj|solutionrelative:dto\\usereditdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9C02FA1-27B2-4F47-B8D0-2A515837AD04}|DapperCrudApi.csproj|c:\\users\\felipe.costa\\source\\repos\\dappercrudapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F9C02FA1-27B2-4F47-B8D0-2A515837AD04}|DapperCrudApi.csproj|d:\\workspace-csharp\\dappercrudapi.net\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F9C02FA1-27B2-4F47-B8D0-2A515837AD04}|DapperCrudApi.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9C02FA1-27B2-4F47-B8D0-2A515837AD04}|DapperCrudApi.csproj|c:\\users\\felipe.costa\\source\\repos\\dappercrudapi\\serivces\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F9C02FA1-27B2-4F47-B8D0-2A515837AD04}|DapperCrudApi.csproj|d:\\workspace-csharp\\dappercrudapi.net\\serivces\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F9C02FA1-27B2-4F47-B8D0-2A515837AD04}|DapperCrudApi.csproj|solutionrelative:serivces\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9C02FA1-27B2-4F47-B8D0-2A515837AD04}|DapperCrudApi.csproj|c:\\users\\felipe.costa\\source\\repos\\dappercrudapi\\serivces\\iuserinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F9C02FA1-27B2-4F47-B8D0-2A515837AD04}|DapperCrudApi.csproj|d:\\workspace-csharp\\dappercrudapi.net\\serivces\\iuserinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F9C02FA1-27B2-4F47-B8D0-2A515837AD04}|DapperCrudApi.csproj|solutionrelative:serivces\\iuserinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9C02FA1-27B2-4F47-B8D0-2A515837AD04}|DapperCrudApi.csproj|c:\\users\\felipe.costa\\source\\repos\\dappercrudapi\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9C02FA1-27B2-4F47-B8D0-2A515837AD04}|DapperCrudApi.csproj|solutionrelative:models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F9C02FA1-27B2-4F47-B8D0-2A515837AD04}|DapperCrudApi.csproj|d:\\workspace-csharp\\dappercrudapi.net\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F9C02FA1-27B2-4F47-B8D0-2A515837AD04}|DapperCrudApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,70 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IUserInterface.cs",
-              "DocumentMoniker": "C:\\Users\\felipe.costa\\source\\repos\\DapperCrudApi\\Serivces\\IUserInterface.cs",
-              "RelativeDocumentMoniker": "Serivces\\IUserInterface.cs",
-              "ToolTip": "C:\\Users\\felipe.costa\\source\\repos\\DapperCrudApi\\Serivces\\IUserInterface.cs",
-              "RelativeToolTip": "Serivces\\IUserInterface.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T19:09:19.459Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserModel.cs",
-              "DocumentMoniker": "C:\\Users\\felipe.costa\\source\\repos\\DapperCrudApi\\Models\\UserModel.cs",
-              "RelativeDocumentMoniker": "Models\\UserModel.cs",
-              "ToolTip": "C:\\Users\\felipe.costa\\source\\repos\\DapperCrudApi\\Models\\UserModel.cs",
-              "RelativeToolTip": "Models\\UserModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T19:09:08.368Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserCreationDto.cs",
-              "DocumentMoniker": "C:\\Users\\felipe.costa\\source\\repos\\DapperCrudApi\\Dto\\UserCreationDto.cs",
-              "RelativeDocumentMoniker": "Dto\\UserCreationDto.cs",
-              "ToolTip": "C:\\Users\\felipe.costa\\source\\repos\\DapperCrudApi\\Dto\\UserCreationDto.cs",
-              "RelativeToolTip": "Dto\\UserCreationDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
+              "Title": "UserEditDto.cs",
+              "DocumentMoniker": "D:\\workspace-csharp\\DapperCrudApi.Net\\Dto\\UserEditDto.cs",
+              "RelativeDocumentMoniker": "Dto\\UserEditDto.cs",
+              "ToolTip": "D:\\workspace-csharp\\DapperCrudApi.Net\\Dto\\UserEditDto.cs",
+              "RelativeToolTip": "Dto\\UserEditDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T18:54:03.658Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\felipe.costa\\source\\repos\\DapperCrudApi\\Serivces\\UserService.cs",
-              "RelativeDocumentMoniker": "Serivces\\UserService.cs",
-              "ToolTip": "C:\\Users\\felipe.costa\\source\\repos\\DapperCrudApi\\Serivces\\UserService.cs",
-              "RelativeToolTip": "Serivces\\UserService.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAiwFUAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T18:52:38.322Z",
+              "WhenOpened": "2024-10-16T22:35:25.126Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\felipe.costa\\source\\repos\\DapperCrudApi\\Controllers\\UserController.cs",
+              "DocumentMoniker": "D:\\workspace-csharp\\DapperCrudApi.Net\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\felipe.costa\\source\\repos\\DapperCrudApi\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\workspace-csharp\\DapperCrudApi.Net\\Controllers\\UserController.cs",
               "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAowDcAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAwwEIAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T13:47:44.604Z",
+              "WhenOpened": "2024-10-16T22:16:41.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\workspace-csharp\\DapperCrudApi.Net\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\workspace-csharp\\DapperCrudApi.Net\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-16T21:53:51.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IUserInterface.cs",
+              "DocumentMoniker": "D:\\workspace-csharp\\DapperCrudApi.Net\\Serivces\\IUserInterface.cs",
+              "RelativeDocumentMoniker": "Serivces\\IUserInterface.cs",
+              "ToolTip": "D:\\workspace-csharp\\DapperCrudApi.Net\\Serivces\\IUserInterface.cs",
+              "RelativeToolTip": "Serivces\\IUserInterface.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T19:09:19.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\workspace-csharp\\DapperCrudApi.Net\\Serivces\\UserService.cs",
+              "RelativeDocumentMoniker": "Serivces\\UserService.cs",
+              "ToolTip": "D:\\workspace-csharp\\DapperCrudApi.Net\\Serivces\\UserService.cs",
+              "RelativeToolTip": "Serivces\\UserService.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAYwIEAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T18:52:38.322Z",
               "EditorCaption": ""
             }
           ]

@@ -96,5 +96,42 @@ namespace DapperCrudApi.Serivces
         {
             return await connection.QueryAsync<UserModel>("select * from Usuarios");
         }
+
+        public Task<ResponseModel<List<UserListDto>>> ListarUsuarios()
+        {
+            throw new NotImplementedException();
+        }
+
+        public async Task<ResponseModel<List<UserListDto>>> EditarUsuario(UserEditDto userEditDto)
+        {
+            ResponseModel<List<UserListDto>> response = new ResponseModel<List<UserListDto>>();
+
+            using (var connection = new SqlConnection(_configuration.GetConnectionString("DefaultConnection")))
+            {
+
+                var usuariosBD = await connection.ExecuteAsync($"update table Usuarios set " +
+                    $"NomeCompleto = {userEditDto.NomeCompleto}, Email = {userEditDto.Email}," +
+                    $" Cargo = {userEditDto.Cargo}, Salario = {userEditDto.Salario}, " +
+                    $"Situacao = {userEditDto.Situacao}, CPF = {userEditDto.CPF} where id = {userEditDto.Id}");
+
+                if (usuariosBD == 0)
+                {
+                    response.Mensagem = "Ocorreu um erro ao realizar a edição";
+                    response.Status = false;
+                    return response;
+                }
+
+                var usuarios = await ListarUsuarios(connection);
+
+                var usuariosMapeados = _mapper.Map<List<UserListDto>>(usuarios);
+
+                response.Dados = usuariosMapeados;
+
+                response.Mensagem = "Usuarios listados com sucesso";
+
+            }
+
+            return response;
+        }
     }
 }
