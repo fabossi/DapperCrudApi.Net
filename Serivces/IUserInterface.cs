@@ -1,0 +1,12 @@
+﻿using DapperCrudApi.Dto;
+using DapperCrudApi.Models;
+
+namespace DapperCrudApi.Serivces
+{
+    public interface IUserInterface
+    {
+        Task<ResponseModel<List<UserListDto>>> BuscarUsuarios();
+        Task<ResponseModel<UserListDto>> BuscarUsuarioPorId(int Id);
+        Task<ResponseModel<List<UserListDto>>> CriarUsuario(UserCreationDto userCreationDto);
+    }
+}
