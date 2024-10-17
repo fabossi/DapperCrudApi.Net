@@ -66,5 +66,18 @@ namespace DapperCrudApi.Controllers
             }
             return Ok(usuarios);
         }
+
+        [HttpDelete]
+        public async Task<IActionResult> ExcluirUsuario(int id)
+        {
+            var usuarios = await _userService.ExcluirUsuario(id);
+
+            if (usuarios.Status == false)
+            {
+                return BadRequest(usuarios);
+            }
+
+            return Ok(usuarios);
+        }
     }
 }

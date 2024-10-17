@@ -3,6 +3,7 @@ using Dapper;
 using DapperCrudApi.Dto;
 using DapperCrudApi.Models;
 using System.Data.SqlClient;
+using System.Security.Cryptography.Xml;
 
 namespace DapperCrudApi.Serivces
 {
@@ -109,10 +110,9 @@ namespace DapperCrudApi.Serivces
             using (var connection = new SqlConnection(_configuration.GetConnectionString("DefaultConnection")))
             {
 
-                var usuariosBD = await connection.ExecuteAsync($"update table Usuarios set " +
-                    $"NomeCompleto = {userEditDto.NomeCompleto}, Email = {userEditDto.Email}," +
-                    $" Cargo = {userEditDto.Cargo}, Salario = {userEditDto.Salario}, " +
-                    $"Situacao = {userEditDto.Situacao}, CPF = {userEditDto.CPF} where id = {userEditDto.Id}");
+                var usuariosBD = await connection.ExecuteAsync("UPDATE Usuarios SET NomeCompleto = " +
+                    "@NomeCompleto, Email = @Email, Cargo = @Cargo, Salario = @Salario, " +
+                    "Situacao = @Situacao, CPF = @CPF WHERE id = @Id", userEditDto);
 
                 if (usuariosBD == 0)
                 {
@@ -131,6 +131,32 @@ namespace DapperCrudApi.Serivces
 
             }
 
+            return response;
+        }
+
+        public async Task<ResponseModel<List<UserListDto>>> ExcluirUsuario(int id)
+        {
+            ResponseModel<List<UserListDto>> response = new ResponseModel<List<UserListDto>>();
+
+            using (var connection = new SqlConnection(_configuration.GetConnectionString("DefaultConnection")))
+            {
+                var usuarioDB = await connection.ExecuteAsync("DELETE FROM Usuarios WHERE id = @id", new { id });
+
+                if (usuarioDB == 0)
+                {
+                    response.Mensagem = "Usuário não encontrado";
+                    response.Status = false;
+                    return response;
+                }
+
+                var usuarios = await ListarUsuarios(connection);
+
+                var usuariosMapeados = _mapper.Map<List<UserListDto>>(usuarios);
+
+                response.Dados = usuariosMapeados;
+
+                response.Mensagem = "Usuário excluido com sucesso";
+            }
             return response;
         }
     }

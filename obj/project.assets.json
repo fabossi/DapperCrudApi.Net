@@ -1137,19 +1137,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\fabos\\.nuget\\packages\\": {}
+    "C:\\Users\\felipe.costa\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\workspace-csharp\\DapperCrudApi.Net\\DapperCrudApi.csproj",
+      "projectUniqueName": "C:\\Users\\felipe.costa\\source\\repos\\DapperCrudApi\\DapperCrudApi.csproj",
       "projectName": "DapperCrudApi",
-      "projectPath": "D:\\workspace-csharp\\DapperCrudApi.Net\\DapperCrudApi.csproj",
-      "packagesPath": "C:\\Users\\fabos\\.nuget\\packages\\",
-      "outputPath": "D:\\workspace-csharp\\DapperCrudApi.Net\\obj\\",
+      "projectPath": "C:\\Users\\felipe.costa\\source\\repos\\DapperCrudApi\\DapperCrudApi.csproj",
+      "packagesPath": "C:\\Users\\felipe.costa\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\felipe.costa\\source\\repos\\DapperCrudApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\fabos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\felipe.costa\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1217,7 +1217,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

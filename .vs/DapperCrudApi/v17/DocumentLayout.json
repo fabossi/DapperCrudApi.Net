@@ -1,26 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\workspace-csharp\\DapperCrudApi.Net\\",
+  "WorkspaceRootPath": "C:\\Users\\felipe.costa\\source\\repos\\DapperCrudApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F9C02FA1-27B2-4F47-B8D0-2A515837AD04}|DapperCrudApi.csproj|d:\\workspace-csharp\\dappercrudapi.net\\dto\\usereditdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9C02FA1-27B2-4F47-B8D0-2A515837AD04}|DapperCrudApi.csproj|solutionrelative:dto\\usereditdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F9C02FA1-27B2-4F47-B8D0-2A515837AD04}|DapperCrudApi.csproj|d:\\workspace-csharp\\dappercrudapi.net\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9C02FA1-27B2-4F47-B8D0-2A515837AD04}|DapperCrudApi.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F9C02FA1-27B2-4F47-B8D0-2A515837AD04}|DapperCrudApi.csproj|d:\\workspace-csharp\\dappercrudapi.net\\serivces\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F9C02FA1-27B2-4F47-B8D0-2A515837AD04}|DapperCrudApi.csproj|c:\\users\\felipe.costa\\source\\repos\\dappercrudapi\\serivces\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F9C02FA1-27B2-4F47-B8D0-2A515837AD04}|DapperCrudApi.csproj|solutionrelative:serivces\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9C02FA1-27B2-4F47-B8D0-2A515837AD04}|DapperCrudApi.csproj|d:\\workspace-csharp\\dappercrudapi.net\\serivces\\iuserinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F9C02FA1-27B2-4F47-B8D0-2A515837AD04}|DapperCrudApi.csproj|c:\\users\\felipe.costa\\source\\repos\\dappercrudapi\\serivces\\iuserinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F9C02FA1-27B2-4F47-B8D0-2A515837AD04}|DapperCrudApi.csproj|solutionrelative:serivces\\iuserinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9C02FA1-27B2-4F47-B8D0-2A515837AD04}|DapperCrudApi.csproj|d:\\workspace-csharp\\dappercrudapi.net\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F9C02FA1-27B2-4F47-B8D0-2A515837AD04}|DapperCrudApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{F9C02FA1-27B2-4F47-B8D0-2A515837AD04}|DapperCrudApi.csproj|c:\\users\\felipe.costa\\source\\repos\\dappercrudapi\\dto\\usercreationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C02FA1-27B2-4F47-B8D0-2A515837AD04}|DapperCrudApi.csproj|solutionrelative:dto\\usercreationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C02FA1-27B2-4F47-B8D0-2A515837AD04}|DapperCrudApi.csproj|c:\\users\\felipe.costa\\source\\repos\\dappercrudapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C02FA1-27B2-4F47-B8D0-2A515837AD04}|DapperCrudApi.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C02FA1-27B2-4F47-B8D0-2A515837AD04}|DapperCrudApi.csproj|c:\\users\\felipe.costa\\source\\repos\\dappercrudapi\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C02FA1-27B2-4F47-B8D0-2A515837AD04}|DapperCrudApi.csproj|solutionrelative:models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,72 +30,258 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 15,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserEditDto.cs",
-              "DocumentMoniker": "D:\\workspace-csharp\\DapperCrudApi.Net\\Dto\\UserEditDto.cs",
-              "RelativeDocumentMoniker": "Dto\\UserEditDto.cs",
-              "ToolTip": "D:\\workspace-csharp\\DapperCrudApi.Net\\Dto\\UserEditDto.cs",
-              "RelativeToolTip": "Dto\\UserEditDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T22:35:25.126Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:160:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:145:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:147:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:149:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:150:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:151:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:153:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:155:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:162:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:161:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:170:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:172:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\workspace-csharp\\DapperCrudApi.Net\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "D:\\workspace-csharp\\DapperCrudApi.Net\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAwwEIAAAAgAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "UserCreationDto.cs",
+              "DocumentMoniker": "C:\\Users\\felipe.costa\\source\\repos\\DapperCrudApi\\Dto\\UserCreationDto.cs",
+              "RelativeDocumentMoniker": "Dto\\UserCreationDto.cs",
+              "ToolTip": "C:\\Users\\felipe.costa\\source\\repos\\DapperCrudApi\\Dto\\UserCreationDto.cs",
+              "RelativeToolTip": "Dto\\UserCreationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T22:16:41.512Z",
+              "WhenOpened": "2024-10-16T18:54:03.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\felipe.costa\\source\\repos\\DapperCrudApi\\Serivces\\UserService.cs",
+              "RelativeDocumentMoniker": "Serivces\\UserService.cs",
+              "ToolTip": "C:\\Users\\felipe.costa\\source\\repos\\DapperCrudApi\\Serivces\\UserService.cs",
+              "RelativeToolTip": "Serivces\\UserService.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAkwJ4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T18:52:38.322Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\workspace-csharp\\DapperCrudApi.Net\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\workspace-csharp\\DapperCrudApi.Net\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-16T21:53:51.451Z",
-              "EditorCaption": ""
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "C:\\Users\\felipe.costa\\source\\repos\\DapperCrudApi\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "Models\\UserModel.cs",
+              "ToolTip": "C:\\Users\\felipe.costa\\source\\repos\\DapperCrudApi\\Models\\UserModel.cs",
+              "RelativeToolTip": "Models\\UserModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T19:09:08.368Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "IUserInterface.cs",
-              "DocumentMoniker": "D:\\workspace-csharp\\DapperCrudApi.Net\\Serivces\\IUserInterface.cs",
-              "RelativeDocumentMoniker": "Serivces\\IUserInterface.cs",
-              "ToolTip": "D:\\workspace-csharp\\DapperCrudApi.Net\\Serivces\\IUserInterface.cs",
-              "RelativeToolTip": "Serivces\\IUserInterface.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABWAAAAAAAAAA==",
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\felipe.costa\\source\\repos\\DapperCrudApi\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\felipe.costa\\source\\repos\\DapperCrudApi\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAkwCcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T19:09:19.459Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-16T13:47:44.604Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "D:\\workspace-csharp\\DapperCrudApi.Net\\Serivces\\UserService.cs",
-              "RelativeDocumentMoniker": "Serivces\\UserService.cs",
-              "ToolTip": "D:\\workspace-csharp\\DapperCrudApi.Net\\Serivces\\UserService.cs",
-              "RelativeToolTip": "Serivces\\UserService.cs",
-              "ViewState": "AgIAAGIAAAAAAAAAAAAYwIEAAABEAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "IUserInterface.cs",
+              "DocumentMoniker": "C:\\Users\\felipe.costa\\source\\repos\\DapperCrudApi\\Serivces\\IUserInterface.cs",
+              "RelativeDocumentMoniker": "Serivces\\IUserInterface.cs",
+              "ToolTip": "C:\\Users\\felipe.costa\\source\\repos\\DapperCrudApi\\Serivces\\IUserInterface.cs",
+              "RelativeToolTip": "Serivces\\IUserInterface.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T18:52:38.322Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-16T19:09:19.459Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 238,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:142:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:144:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:146:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:148:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:152:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:154:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:156:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:157:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:158:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:159:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:163:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:164:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:165:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:166:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:167:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:168:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:169:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:171:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             }
           ]
         }

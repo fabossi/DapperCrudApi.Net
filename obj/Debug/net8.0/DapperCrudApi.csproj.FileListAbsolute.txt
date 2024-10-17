@@ -79,3 +79,4 @@ D:\workspace-csharp\DapperCrudApi.Net\obj\Debug\net8.0\refint\DapperCrudApi.dll
 D:\workspace-csharp\DapperCrudApi.Net\obj\Debug\net8.0\DapperCrudApi.pdb
 D:\workspace-csharp\DapperCrudApi.Net\obj\Debug\net8.0\DapperCrudApi.genruntimeconfig.cache
 D:\workspace-csharp\DapperCrudApi.Net\obj\Debug\net8.0\ref\DapperCrudApi.dll
+C:\Users\felipe.costa\source\repos\DapperCrudApi\obj\Debug\net8.0\DapperCrudApi.sourcelink.json
