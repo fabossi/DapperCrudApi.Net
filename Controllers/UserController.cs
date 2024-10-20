@@ -1,6 +1,5 @@
 ﻿using DapperCrudApi.Dto;
 using DapperCrudApi.Serivces;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DapperCrudApi.Controllers
@@ -60,10 +59,23 @@ namespace DapperCrudApi.Controllers
         {
             var usuarios = await _userService.EditarUsuario(userEditDto);
 
-            if (!usuarios.Status == false)
+            if (usuarios.Status == false)
             {
                 return BadRequest(usuarios);
             }
+            return Ok(usuarios);
+        }
+
+        [HttpDelete]
+        public async Task<IActionResult> ExcluirUsuario(int id)
+        {
+            var usuarios = await _userService.ExcluirUsuario(id);
+
+            if (usuarios.Status == false)
+            {
+                return BadRequest(usuarios);
+            }
+
             return Ok(usuarios);
         }
     }

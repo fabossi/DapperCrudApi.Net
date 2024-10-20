@@ -13,6 +13,11 @@ builder.Services.AddScoped<IUserInterface, UserService>();
 
 builder.Services.AddAutoMapper(typeof(Program));
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("UsersApp", builder => builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -21,6 +26,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseCors("UsersApp");
 
 app.UseHttpsRedirection();
 

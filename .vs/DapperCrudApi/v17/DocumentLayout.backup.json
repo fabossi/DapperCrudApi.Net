@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "D:\\workspace-csharp\\DapperCrudApi.Net\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F9C02FA1-27B2-4F47-B8D0-2A515837AD04}|DapperCrudApi.csproj|d:\\workspace-csharp\\dappercrudapi.net\\dto\\usereditdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9C02FA1-27B2-4F47-B8D0-2A515837AD04}|DapperCrudApi.csproj|solutionrelative:dto\\usereditdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F9C02FA1-27B2-4F47-B8D0-2A515837AD04}|DapperCrudApi.csproj|d:\\workspace-csharp\\dappercrudapi.net\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F9C02FA1-27B2-4F47-B8D0-2A515837AD04}|DapperCrudApi.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,8 +15,16 @@
       "RelativeMoniker": "D:0:0:{F9C02FA1-27B2-4F47-B8D0-2A515837AD04}|DapperCrudApi.csproj|solutionrelative:serivces\\iuserinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F9C02FA1-27B2-4F47-B8D0-2A515837AD04}|DapperCrudApi.csproj|d:\\workspace-csharp\\dappercrudapi.net\\dto\\usercreationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C02FA1-27B2-4F47-B8D0-2A515837AD04}|DapperCrudApi.csproj|solutionrelative:dto\\usercreationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F9C02FA1-27B2-4F47-B8D0-2A515837AD04}|DapperCrudApi.csproj|d:\\workspace-csharp\\dappercrudapi.net\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{F9C02FA1-27B2-4F47-B8D0-2A515837AD04}|DapperCrudApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C02FA1-27B2-4F47-B8D0-2A515837AD04}|DapperCrudApi.csproj|d:\\workspace-csharp\\dappercrudapi.net\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C02FA1-27B2-4F47-B8D0-2A515837AD04}|DapperCrudApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,30 +34,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserEditDto.cs",
-              "DocumentMoniker": "D:\\workspace-csharp\\DapperCrudApi.Net\\Dto\\UserEditDto.cs",
-              "RelativeDocumentMoniker": "Dto\\UserEditDto.cs",
-              "ToolTip": "D:\\workspace-csharp\\DapperCrudApi.Net\\Dto\\UserEditDto.cs",
-              "RelativeToolTip": "Dto\\UserEditDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "IUserInterface.cs",
+              "DocumentMoniker": "D:\\workspace-csharp\\DapperCrudApi.Net\\Serivces\\IUserInterface.cs",
+              "RelativeDocumentMoniker": "Serivces\\IUserInterface.cs",
+              "ToolTip": "D:\\workspace-csharp\\DapperCrudApi.Net\\Serivces\\IUserInterface.cs",
+              "RelativeToolTip": "Serivces\\IUserInterface.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T22:35:25.126Z",
+              "WhenOpened": "2024-10-20T15:50:19.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserCreationDto.cs",
+              "DocumentMoniker": "D:\\workspace-csharp\\DapperCrudApi.Net\\Dto\\UserCreationDto.cs",
+              "RelativeDocumentMoniker": "Dto\\UserCreationDto.cs",
+              "ToolTip": "D:\\workspace-csharp\\DapperCrudApi.Net\\Dto\\UserCreationDto.cs",
+              "RelativeToolTip": "Dto\\UserCreationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T14:56:55.413Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\workspace-csharp\\DapperCrudApi.Net\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\workspace-csharp\\DapperCrudApi.Net\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T23:32:13.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\workspace-csharp\\DapperCrudApi.Net\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
               "ToolTip": "D:\\workspace-csharp\\DapperCrudApi.Net\\Controllers\\UserController.cs",
               "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAwwEIAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAwwEEAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-16T22:16:41.512Z",
               "EditorCaption": ""
@@ -66,33 +100,20 @@
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "D:\\workspace-csharp\\DapperCrudApi.Net\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-10-16T21:53:51.451Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IUserInterface.cs",
-              "DocumentMoniker": "D:\\workspace-csharp\\DapperCrudApi.Net\\Serivces\\IUserInterface.cs",
-              "RelativeDocumentMoniker": "Serivces\\IUserInterface.cs",
-              "ToolTip": "D:\\workspace-csharp\\DapperCrudApi.Net\\Serivces\\IUserInterface.cs",
-              "RelativeToolTip": "Serivces\\IUserInterface.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T19:09:19.459Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "UserService.cs",
               "DocumentMoniker": "D:\\workspace-csharp\\DapperCrudApi.Net\\Serivces\\UserService.cs",
               "RelativeDocumentMoniker": "Serivces\\UserService.cs",
               "ToolTip": "D:\\workspace-csharp\\DapperCrudApi.Net\\Serivces\\UserService.cs",
               "RelativeToolTip": "Serivces\\UserService.cs",
-              "ViewState": "AgIAAGIAAAAAAAAAAAAYwIEAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAuwGcAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-16T18:52:38.322Z",
               "EditorCaption": ""

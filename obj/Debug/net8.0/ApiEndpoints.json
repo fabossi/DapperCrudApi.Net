@@ -43,6 +43,22 @@
   },
   {
     "ContainingType": "DapperCrudApi.Controllers.UserController",
+    "Method": "ExcluirUsuario",
+    "RelativePath": "api/User",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DapperCrudApi.Controllers.UserController",
     "Method": "BuscarUsuariosPorId",
     "RelativePath": "api/User/{Id}",
     "HttpMethod": "GET",
